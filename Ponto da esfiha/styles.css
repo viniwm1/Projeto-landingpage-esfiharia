@@ -346,3 +346,95 @@ justify-content: center;
   height: 60vh;
   margin-left: 38%;
 }
+
+/* Horário de funcionamento */
+
+.horario-de-funcionamento{
+  background-color: var(--cor-de-fundo);
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horario-de-funcionamento-filho{
+  text-align: center;
+}
+
+.horario-de-funcionamento-filho h2{
+ font-size: 3rem;
+}
+
+.horario-de-funcionamento-filho p{
+  font-size: 1.5rem;
+  margin-top: 3%;
+}
+
+/* Footer */
+
+footer{
+  background-color: var(--cor-principal);
+}
+
+.footer-pai{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: var(--fonte-1);
+}
+
+.footer-filho1{
+  width: 30vw;
+  margin-left: 10%;
+}
+
+
+.footer-logo img{
+  width: 20vw;
+  height: 100%;
+}
+
+
+.endereço-footer p{
+font-size: 1.5rem;
+}
+
+.email-footer p{
+  font-size: 1.5rem;
+}
+
+/* Segunda parte footer */
+
+.footer-filho2{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  margin-left: 10%;
+}
+
+.footer-filho2 a{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* 3 Parte footer */
+
+.footer-filho3{
+
+}
+.footer-filho3-filho1{
+
+}
+.footer-filho3-filho2 img{
+height: 20px;
+width: 30px;
+border-radius: 100px;
+}
+
+.footer-filho3-filho3 a{
+  color: black;
+  background-color: white;
+  width: 30vw;
+  height: 10vh;
+}
