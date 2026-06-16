@@ -1,0 +1,9 @@
+main {
+  background-image: linear-gradient(
+    to bottom,
+    var(--cor-de-fundo) 0,
+    var(--cor-de-fundo) 50%,
+    var(--cor-principal) 50%
+  );
+  height: 500px;
+}
